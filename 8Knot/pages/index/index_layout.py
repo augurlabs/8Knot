@@ -88,7 +88,7 @@ if os.getenv("AUGUR_LOGIN_ENABLED", "False") != "True":
                         "If you need to collect data on new repositories, please ",
                         html.A(
                             "create a repository collection request",
-                            href="https://github.com/oss-aspen/8Knot/issues/new?template=augur_load.md",
+                            href="https://github.com/augurlabs/8Knot/issues/new?template=augur_load.md",
                             target="_blank",
                             style={"fontWeight": "500", "color": "#1565C0"},
                         ),
@@ -347,7 +347,7 @@ navbar_bottom = dbc.NavbarSimple(
         dbc.NavItem(
             dbc.NavLink(
                 "Visualization request",
-                href="https://github.com/oss-aspen/8Knot/issues/new?assignees=&labels=enhancement%2Cvisualization&template=visualizations.md",
+                href="https://github.com/augurlabs/8Knot/issues/new?assignees=&labels=enhancement%2Cvisualization&template=visualizations.md",
                 external_link="True",
                 target="_blank",
             )
@@ -355,7 +355,7 @@ navbar_bottom = dbc.NavbarSimple(
         dbc.NavItem(
             dbc.NavLink(
                 "Bug",
-                href="https://github.com/oss-aspen/8Knot/issues/new?assignees=&labels=bug&template=bug_report.md",
+                href="https://github.com/augurlabs/8Knot/issues/new?assignees=&labels=bug&template=bug_report.md",
                 external_link="True",
                 target="_blank",
             )
@@ -363,7 +363,7 @@ navbar_bottom = dbc.NavbarSimple(
         dbc.NavItem(
             dbc.NavLink(
                 "Repo/Org Request",
-                href="https://github.com/oss-aspen/8Knot/issues/new?assignees=&labels=augur&template=augur_load.md",
+                href="https://github.com/augurlabs/8Knot/issues/new?assignees=&labels=augur&template=augur_load.md",
                 external_link="True",
                 target="_blank",
             )
